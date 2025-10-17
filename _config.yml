@@ -1,0 +1,25 @@
+title: Ember Rising
+description: "Rebellion in a Broken System — a visual novel and cyberpunk universe."
+url: "https://thishas.github.io"
+baseurl: ""   # leave empty for root
+
+remote_theme: volny/creative-theme-jekyll
+
+plugins:
+  - jekyll-feed
+
+# Navigation links
+nav:
+  - name: Home
+    link: /
+  - name: The World
+    link: /#about
+  - name: Stories
+    link: /#services
+  - name: Play Demo
+    link: /#portfolio
+  - name: Join
+    link: /#contact
+
+# Contact information
+email: ignite.emberrising@gmail.com
