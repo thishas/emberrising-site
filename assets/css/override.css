@@ -1,0 +1,45 @@
+/* === Ember Rising Color Theme === */
+
+/* Brand Colors */
+:root {
+  --hyper-pink: #FF2CA8;
+  --electric-purple: #A22CFF;
+  --cp-cyan: #22D3EE;
+  --ink: #0B0B0F;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-primary:visited {
+  background: var(--hyper-pink);
+  border-color: var(--hyper-pink);
+}
+.btn-primary:hover {
+  background: var(--electric-purple);
+  border-color: var(--electric-purple);
+}
+
+/* Links */
+a, a:visited {
+  color: var(--cp-cyan);
+}
+a:hover {
+  color: var(--hyper-pink);
+}
+
+/* Accent Text & Backgrounds */
+.text-primary {
+  color: var(--hyper-pink) !important;
+}
+.bg-primary {
+  background-color: var(--hyper-pink) !important;
+}
+.border-primary {
+  border-color: var(--hyper-pink) !important;
+}
+
+/* Optional: Darker section contrast */
+body {
+  background-color: #0b0b0f;
+  color: #eaeaea;
+}
