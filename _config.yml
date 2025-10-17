@@ -1,25 +1,26 @@
 title: Ember Rising
 description: "Rebellion in a Broken System — a visual novel and cyberpunk universe."
 url: "https://thishas.github.io"
-baseurl: ""   # leave empty for root
+baseurl: "/emberrising-site"
 
 remote_theme: volny/creative-theme-jekyll
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme   # 👈 required so GitHub loads the Volny Creative theme
 
-# Navigation links
+# Navigation links (use anchors to avoid path errors)
 nav:
   - name: Home
-    link: /
+    link: "#page-top"
   - name: The World
-    link: /#about
+    link: "#about"
   - name: Stories
-    link: /#services
+    link: "#services"
   - name: Play Demo
-    link: /#portfolio
+    link: "#portfolio"
   - name: Join
-    link: /#contact
+    link: "#contact"
 
 # Contact information
 email: ignite.emberrising@gmail.com
