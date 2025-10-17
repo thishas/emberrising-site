@@ -1,0 +1,44 @@
+header:
+  title: "Ember Rising Universe"
+  text:  "When the Signal awakens, the world will burn—and be reborn."
+  button:
+    text: "Play Demo"
+    link: "#portfolio"
+
+services:
+  title: "Stories"
+  text:  "Explore tales from the Ember Rising universe."
+  section: services
+  list:
+    - title: "Ember Rising (Novel)"
+      desc:  "Fenix awakens to her power and sparks a revolution."
+      icon: "fas fa-book"
+    - title: "Code of the Outcasts (Visual Novel)"
+      desc:  "Zara, Mira, and Alex fight back from Sector 7."
+      icon: "fas fa-gamepad"
+
+about:
+  title: "The World"
+  text:  "OmniCorp’s dominion, Sector 7’s underground, and the awakening Signal."
+  body:  "A dystopian city of neon and surveillance. Below the grid, rebels decode a signal that fractures obedience."
+  section: about
+
+portfolio:
+  title: "Play Demo"
+  text:  "Web build hosted on Itch.io or Netlify."
+  section: portfolio
+  modal: false
+  list:
+    - title: "Code of the Outcasts — Demo"
+      image: "assets/img/portfolio/demo-cover.jpg"
+      url: "https://itch.io"
+      desc: "Playable browser demo. Choices matter."
+
+contact:
+  title: "Join the Revolution"
+  text:  "Get updates, art drops, and new builds."
+  section: contact
+  email: "ignite.emberrising@gmail.com"
+  button:
+    text: "Email Us"
+    link: "mailto:ignite.emberrising@gmail.com"
