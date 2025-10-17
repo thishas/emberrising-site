@@ -1,6 +1,7 @@
 ---
 layout: home
 ---
+<link rel="stylesheet" href="{{ '/assets/css/override.css' | relative_url }}">
 
 # 🔥 Ember Rising Universe
 
